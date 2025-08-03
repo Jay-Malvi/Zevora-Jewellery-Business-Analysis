@@ -1,4 +1,4 @@
-# 💎 Jewellery Business Intelligence Dashboard
+# 💎 Zevora Jewellery Store Growth & Performance Analytics
 
 ## 📌 Project Overview
 This project focuses on analyzing a **jewellery business dataset** to derive actionable insights using **Python for Data Cleaning & EDA** and **Power BI for visualization**.  
