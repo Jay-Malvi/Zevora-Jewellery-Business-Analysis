@@ -57,7 +57,6 @@ To build a **comprehensive business intelligence solution** for a jewellery stor
 
 ---
 
-### 📂 **Dataset Reference**
 > **Note:** The dataset used in this project has been **modified for privacy purposes** and is only for demonstration.  
 
 ---
