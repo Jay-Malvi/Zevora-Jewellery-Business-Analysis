@@ -1,10 +1,9 @@
 ## 💎 Zevora Jewellery Store Growth & Performance Analytics  
 
-![Dashboard Preview]([Dashboard_Img/dashboard.gif](https://github.com/Jay-Malvi/Zevora-Jewellery-Data-Analysis/blob/main/Dashboard%20Img/Dashboard.gif))  
-
 An end-to-end **data analytics project** for Zevora Jewellery Store, combining **Python (EDA)** and **Power BI** to analyze sales, inventory, staff performance, and customer insights for better business decisions.  
 
 ---
+![Dashboard Preview](https://raw.githubusercontent.com/Jay-Malvi/Zevora-Jewellery-Data-Analysis/main/Dashboard%20Img/Dashboard.gif)
 
 ### 🎯 **Objective**
 To build a **comprehensive business intelligence solution** for a jewellery store, enabling the tracking of KPIs, identifying sales and profit trends, managing inventory restock alerts, analyzing staff performance, and understanding customer loyalty patterns.  
