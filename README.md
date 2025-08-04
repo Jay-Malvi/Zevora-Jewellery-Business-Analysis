@@ -1,62 +1,64 @@
-# 💎 Zevora Jewellery Store Growth & Performance Analytics
+## 💎 Zevora Jewellery Store Growth & Performance Analytics  
 
-## 📌 Project Overview
-This project focuses on analyzing a **jewellery business dataset** to derive actionable insights using **Python for Data Cleaning & EDA** and **Power BI for visualization**.  
-The objective is to:
-- Clean and prepare raw sales, inventory, customer, and staff data.
-- Perform **EDA (Exploratory Data Analysis)** in Python.
-- Automate **business insights generation** (sales, profit, customers, staff performance, restock alerts).
-- Build an **interactive Power BI Dashboard** with multiple pages (Sales, Inventory, Customer Insights, Staff, Profit-Leak).
+![Dashboard Preview](Dashboard_Img/dashboard.gif)  
+
+An end-to-end **data analytics project** for Zevora Jewellery Store, combining **Python (EDA)** and **Power BI** to analyze sales, inventory, staff performance, and customer insights for better business decisions.  
 
 ---
 
-## 📂 Dataset Details
-The dataset contains the following sheets:
-1. **Sales**: OrderID, CustomerID, ProductID, OrderDate, TotalAmount, Profit, etc.
-2. **Inventory**: ProductID, ProductName, Category, StockQty, ReorderLevel.
-3. **Customers**: CustomerID, Name, Age, City, Occupation, Reference, IsRepeat.
-4. **Staff**: StaffID, StaffName, MonthlyTarget.
+### 🎯 **Objective**
+To build a **comprehensive business intelligence solution** for a jewellery store, enabling the tracking of KPIs, identifying sales and profit trends, managing inventory restock alerts, analyzing staff performance, and understanding customer loyalty patterns.  
 
 ---
 
-## 🛠 Tools & Technologies
-- **Python**: Pandas, NumPy, Matplotlib, Seaborn (for data cleaning & EDA)
-- **Power BI**: For dashboard creation & KPI tracking
-- **Excel**: For initial data storage and preprocessing
+### 🧰 **Tools Used**
+- **Python**: Pandas, NumPy, Matplotlib, Seaborn (Data Cleaning & EDA)  
+- **Power BI**: KPI Dashboard & Visualizations (7 interactive pages)  
+- **Excel**: Initial Data Preparation and Formatting  
 
 ---
 
-## 🔑 Key Features
-✅ Data cleaning & transformation using **Python (Pandas)**  
-✅ Automated **insight generation** (top products, repeat customers, staff performance)  
-✅ EDA visualizations: Sales trends, Profit distribution, Customer demographics  
-✅ **Power BI Dashboard** with 7 pages:
-  - Dashboard Overview
-  - Daily Sales
-  - Monthly Summary
-  - Inventory & Restock Alerts
-  - Staff Performance
-  - Customer Loyalty & Insights
-  - Profit-Leak & Alerts
+### 🔄 **Project Workflow**
+1. **Data Collection & Preparation**: Created a modified jewellery dataset (Sales, Inventory, Customers, Staff).  
+2. **Data Cleaning & EDA (Python)**: Handled missing values, standardized formats, and explored sales/customer trends.  
+3. **Power BI Modelling**: Established relationships between tables (Sales, Inventory, Customers, Staff).  
+4. **Dashboard Design**: Built **7 interactive pages** with KPIs, charts, and filters for actionable insights.  
+5. **DAX Measures**: Created calculations for profit margin, YoY sales growth, repeat customers %, restock alerts, etc.  
 
 ---
 
-## 📊 Python EDA (Exploratory Data Analysis)
-### Data Cleaning:
-- Filled missing values
-- Corrected data types (e.g., date fields, numeric columns)
-- Removed duplicates
-- Created customer **age groups**
+### 💡 **Key Business Insights**
+- **84% Repeat Customers**, indicating strong loyalty.  
+- Identified **high-margin products** driving revenue growth.  
+- Highlighted **low-stock products** with automated **restock alerts**.  
+- Staff performance tracking revealed **target achievement gaps**.  
+- Detected **low-margin/negative profit products**, enabling profit-leak control.  
 
-### Sample EDA Code:
-```python
-# Monthly Sales Trend
-df['Month'] = df['OrderDate'].dt.to_period('M')
-monthly_sales = df.groupby('Month')['TotalAmount'].sum()
+---
 
-plt.figure(figsize=(10,5))
-monthly_sales.plot(kind='line', marker='o', color='gold')
-plt.title("Monthly Sales Trend")
-plt.xlabel("Month")
-plt.ylabel("Sales Amount")
-plt.show()
+### 📈 **Project Highlights**
+- A **7-page interactive Power BI dashboard**:  
+  - Dashboard Overview  
+  - Daily Sales  
+  - Monthly Summary  
+  - Inventory & Restock Alerts  
+  - Staff Performance  
+  - Customer Loyalty & Insights  
+  - Profit-Leak & Alerts  
+- Automated KPIs for **Sales, Profit, Inventory, Customer Loyalty & Staff Performance**.  
+- Business-oriented DAX measures designed for **real-world jewellery store analytics**.  
+
+---
+
+### 🚀 **Future Enhancements**
+- Integrate **real-time data refresh** using Power BI Service & Gateway.  
+- Add **predictive analytics** for forecasting sales and inventory demand.  
+- Expand customer insights with **segmentation and lifetime value analysis**.  
+- Build an **RLS-enabled version** (Role Level Security) for restricted access by staff hierarchy.  
+
+---
+
+### 📂 **Dataset Reference**
+> **Note:** The dataset used in this project has been **modified for privacy purposes** and is only for demonstration.  
+
+---
